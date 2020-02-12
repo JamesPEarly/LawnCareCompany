@@ -5,6 +5,10 @@ public class Employee{
     private int date;
     private String status;
     private int payRate;
+    
+    // List of customers
+    Customer[] myCustomers;
+    
 
     public Employee(String name,int date,String status, int payrate){
         this.name= name;
